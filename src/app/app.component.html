@@ -7,12 +7,12 @@
     </header>
     <ul class="chatbox">
         <ng-container *ngFor="let m of mensajes,let i = index">
-            <ng-container *ngIf="i%2 == 0">
+            <ng-container *ngIf="(i+1)%2 == 0">
                 <li class="chat outgoing">
                     <p>{{m}}</p>
                 </li>
             </ng-container>
-            <ng-container *ngIf="i%2 != 0">
+            <ng-container *ngIf="(i+1)%2 != 0">
                 <li class="chat incoming">
                     <span class="material-symbols-outlined">smart_toy</span>
                     <p>{{m}}</p>

@@ -19,15 +19,10 @@
   color: #fff;
   position: absolute;
 }
-.chatbot-toggler span:last-child,
-body.show-chatbot .chatbot-toggler span:first-child  {
-  opacity: 0;
-}
-body.show-chatbot .chatbot-toggler span:last-child {
-  opacity: 1;
-}
+
 .chatbot {
   width: 420px;
+  height: 630px;
   background: #fff;
   border-radius: 15px;
   overflow: hidden;
