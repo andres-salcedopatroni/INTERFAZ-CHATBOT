@@ -9,17 +9,6 @@ body {
   background: #E3F2FD;
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 
-body.show-chatbot .chatbot-toggler {
-    transform: rotate(90deg);
-}
-
-.chatbot-toggler span:last-child,
-body.show-chatbot .chatbot-toggler span:first-child  {
-  opacity: 0;
-}
-
-body.show-chatbot .chatbot-toggler span:last-child {
-    opacity: 1;
-}
